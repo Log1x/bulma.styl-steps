@@ -1,46 +1,46 @@
 .step
-  display: flex
-  flex-wrap: nowrap
-  list-style: none
-  margin: .5rem 0
-  width: 100%
+  display flex
+  flex-wrap nowrap
+  list-style none
+  margin .5rem 0
+  width 100%
   .step-item
-    flex: 1 1 0
-    margin-top: 0
-    min-height: 2rem
-    position: relative
-    text-align: center
+    flex 1 1 0
+    margin-top 0
+    min-height 2rem
+    position relative
+    text-align center
     &:not(:first-child)::before
-      background: $primary
-      content: ''
-      height: .2rem
-      left: -50%
-      position: absolute
-      top: .9rem
-      width: 100%
+      background $primary
+      content ''
+      height .2rem
+      left -50%
+      position absolute
+      top .9rem
+      width 100%
     a
-      color: #acb3c2
-      display: inline-block
-      padding: 2rem 1rem 0
-      text-decoration: none
+      color #acb3c2
+      display inline-block
+      padding 2rem 1rem 0
+      text-decoration none
       &::before
-        background: $primary
-        border: .2rem solid #fff
-        border-radius: 50%
-        content: ''
-        display: block
-        left: 50%
-        position: absolute
-        top: .4rem
-        size: 1.2rem
-        transform: translateX(-50%)
-        z-index: 1
+        background $primary
+        border .2rem solid #fff
+        border-radius 50%
+        content ''
+        display block
+        left 50%
+        position absolute
+        top .4rem
+        size 1.2rem
+        transform translateX(-50%)
+        z-index 1
     &.active
       a
         &::before
-          background: #fff
-          border: .2rem solid $primary
+          background #fff
+          border .2rem solid $primary
     &.active ~ .step-item::before
-        background: #f0f1f4
+        background #f0f1f4
     &.active ~ .step-item a::before
-        background: #e7e9ed
+        background #e7e9ed
