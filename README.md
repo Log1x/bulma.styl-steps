@@ -1,40 +1,36 @@
-# bulma.styl-steps
-This is a fork for the Bulma extension to manage steps for implementation into [Bulma.styl](https://github.com/log1x/bulma.styl).
+# Bulma.styl Steps
 
+[![npm](https://img.shields.io/npm/v/bulma.styl-steps.svg)](https://www.npmjs.com/package/bulma.styl-steps)
+[![npm](https://img.shields.io/npm/dm/bulma.styl-steps.svg)](https://www.npmjs.com/package/bulma.styl-steps)
 
-Preview
----
-![Steps extension](https://img15.hostingpics.net/pics/827766ScreenShot20170719at121410.png)
+This is a 1:1 Stylus translation of the [bulma-steps](https://github.com/Wikiki/bulma-steps) extension by [Wikiki](https://github.com/Wikiki).
 
-Usage
----
+This is generally for use with [Bulma.styl](https://github.com/log1x/bulma.styl). 
+
+## Installation 
+
+### Install from npm
+
+```sh
+$ npm install bulma.styl-steps
 ```
-<ul class="step">
-  <li class="step-item">
-    <a href="#steps"></a>
-  </li>
-  <li class="step-item active">
-    <a href="#steps"></a>
-  </li>
-  <li class="step-item">
-    <a href="#steps"></a>
-  </li>
-  <li class="step-item">
-    <a href="#steps"></a>
-  </li>
-</ul>
 
-<ul class="step">
-  <li class="step-item">
-    <a href="#steps">Step 1</a>
-  </li>
-  <li class="step-item">
-    <a href="#steps">Step 2</a>
-  </li>
-  <li class="step-item active">
-    <a href="#steps">Step 3</a>
-  </li>
-  <li class="step-item">
-    <a href="#steps">Step 4</a>
-  </li>
-</ul>
+### Install from Yarn 
+
+```sh
+$ yarn add bulma.styl-steps
+```
+
+## Usage 
+
+```
+@require "~bulma.styl-steps/steps"
+```
+
+## Documentation 
+
+Documentation can be found at Wikiki's [extension documentation](https://wikiki.github.io/bulma-extensions/steps).
+
+## License
+
+Released under the MIT license.
